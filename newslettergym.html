@@ -6,12 +6,9 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="color-scheme" content="light dark"> 
      <meta name="supported-color-schemes" content="light dark">
-     <title>newsletter</title>
+     <title>Grekkosr</title>
      <style type="text/css">
-		:root{
-			color-scheme: light dark;
-			supported-color-schemes: light dark;
-		}
+		
 		body {
 		margin: 0;
 		color: #ffffff;
@@ -124,12 +121,17 @@
 	   Media queries 
 	  */
 	  @media screen and (max-width: 425px){
+		.main{
+			padding: 0px 20px 35px 20px !important;
+		}
 		.msg{
 			font-size: 21px;
                line-height: 23px;
 			color: #000000;
                font-weight: 600;
                letter-spacing: -0.083px;
+			padding-left: 15px !important;
+			padding-right: 15px !important;
 		}
 	  .features_gym > li{
           font-size: 18px;
@@ -169,6 +171,16 @@
            width: 100%;
            height: 300px;
         }
+	   .talk{
+		height:200px;
+	   }
+	   .community-spotlight{
+		padding: 10px !important;
+	   }
+	   .socials > li {
+         padding-right: 15px !important;
+         }
+	   
 	    
 	  }
 	
@@ -420,7 +432,7 @@
 			<!--third-title-->
 			<tr>
 				<td>
-					<table style="background-color: #ffffff !important; padding: 20px; margin-top: 35px; color: #0a0a0a;" width="100%">
+					<table style="background-color: #ffffff !important; padding: 20px; margin-top: 35px; color: #0a0a0a;" width="100%" class="community-spotlight">
 						<tr>
 							<td style="padding: 40px 0px 0px 0px;">
 								<h2 style="text-transform: uppercase;
@@ -439,7 +451,7 @@
 							<td>
 								<img src="https://i.ibb.co/8MwhMsr/Tonal-Talk.png" 
 								width='500px' height='300px'
-								 style='max-width: 100%; max-height: 100%;'alt="">
+								 style='max-width: 100%; max-height: 100%;' class="talk">
 							</td>
 						</tr>
 						<tr>
